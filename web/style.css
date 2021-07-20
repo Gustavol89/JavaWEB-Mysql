@@ -1,0 +1,60 @@
+
+/* stilo do dropdown botão */
+.dropbtn {
+  background-color: #ff6600;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* o container <>div precisa de uma posição */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* links dentro do dropdown na div */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* mudando a cor do dropdown da div ao passar o mouse em cima */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* mostrando o dropdown na div ao passar o mouse */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* mudando a cor do dropdon na div ao passar o mouse no link */
+ /*.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}*/
+
+/*mantendo o padrão para os navegadores*/
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+/*imagen de background */
+bacground{
+    background-image: url("/pacote de Códigos fonte/img/javaweb.png");
+}
+
+
+
